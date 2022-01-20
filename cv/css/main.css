@@ -379,7 +379,7 @@ text-align: center;
   background: rgb(99, 105, 99, 0);
 
   padding-top: 100px;
-  padding-bottom: 500px;
+  padding-bottom: 150px;
   position: flex;
   
 }
@@ -438,7 +438,8 @@ text-align: center;
 
 
 #contact {
-  background: rgb(99, 105, 99, 0);
+  background: url('../images/himmel.jpg') no-repeat center;
+  background-size: cover;
   padding-top: 80px;
   position: flex;
   
