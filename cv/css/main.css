@@ -113,7 +113,7 @@ html {
 .info-text li{
   padding: 0em 5em 0em 6em;
   font-size: 0.9vw;
-  color: aliceblue;
+  color: white;
   text-align:left;
 
 }
@@ -416,10 +416,13 @@ text-align: center;
 .pdf img{
   opacity:90%;
   padding-top: 1em;
+  transition: transform 0.4s;
 }
 
 .pdf img:hover{
   opacity: 1;
+  transform: scale(1.3);
+  
 }
 
 
@@ -427,6 +430,7 @@ text-align: center;
     .portfolio-text {
       color: white;
       font-size: 1.8vw;
+
     }
 }
 
@@ -464,7 +468,7 @@ text-align: center;
   
   font-weight: 400;
   font-size: 20px;
-  color: #9b9b9b;
+  color: white;
   line-height: 1.5;
   
  
