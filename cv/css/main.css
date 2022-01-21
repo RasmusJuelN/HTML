@@ -112,7 +112,9 @@ html {
 
 .info-text li{
   padding: 0em 5em 0em 6em;
+  
   font-size: 0.9vw;
+  
   color: white;
   text-align:left;
 
@@ -175,12 +177,13 @@ a{ text-decoration: none; }
 }
 
 .cv{
-  padding:2em;
+  bottom: 0;
+
 }
 
 .download {
 	position:absolute;
-  margin-top:8em;
+  
 	top: calc(50% - 30px);
 	right: calc(50% - 115px);
 	width: 230px;
@@ -461,6 +464,7 @@ text-align: center;
   font-weight: 600;
   color: white;
   text-align: center;
+  font-size: 32px;
   
 }
 
