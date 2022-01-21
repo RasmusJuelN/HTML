@@ -179,8 +179,8 @@ a{ text-decoration: none; }
 }
 
 .download {
-	position: absolute;
-  margin-top:6em;
+	position:absolute;
+  margin-top:8em;
 	top: calc(50% - 30px);
 	right: calc(50% - 115px);
 	width: 230px;
@@ -435,10 +435,9 @@ text-align: center;
 
 
 
-
-
 #contact {
-  background: url('../images/himmel.jpg') no-repeat center;
+
+
   background-size: cover;
   padding-top: 80px;
   position: flex;
@@ -557,6 +556,7 @@ textarea {
   float: left;
   padding: 7px 30px;
   border-radius: 60px;
+  
   background-color: #2eb4a9;
   color: white;
   font-size: 18px;
@@ -578,6 +578,7 @@ textarea {
       width:100%;
       float: none;
       text-align:center;
+      display:inline-block;
   }
 }
 
