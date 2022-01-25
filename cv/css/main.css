@@ -20,7 +20,7 @@ html {
 .nav-container {
 
   margin: 0;
-  margin-top: -2em;
+
   opacity: 90%;
   position: fixed;
   width: 100%;
@@ -96,20 +96,15 @@ html {
 
 
 .info {
-  margin: 2em 2em 2em 2em;
-  padding: 5em;
-  margin-bottom: 500px;
-  padding-top: 180px;
+  padding-top: 130px;
+  padding-bottom: 500px;
 }
 
 .info-container {
   background: rgba(0, 0, 0, 0.3);
   padding: 3em;
-
   width: 60%;
   margin: 0 auto 5em auto;
-  position: flex;
-
 }
 
 .info-text {
@@ -152,11 +147,33 @@ a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 950px) {
+
+
+@media only screen and (max-width: 1200px) {
+  .info-text li {
+    padding: 0em 0em 0em 4em;
+  
+    font-size: 1.5vw;
+  
+    color: white;
+    text-align: left;
+  
+  }
+
+  .profile-pic{
+    min-width: 35%;
+  }
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
 
   .profile-pic {
     margin: 0 auto;
-    width: 80%;
+    width: 60%;
     size: 0.5vw;
 
     Opacity: 90%;
@@ -173,25 +190,23 @@ a {
     padding-top: 5em;
     text-align: center;
     padding: 0;
-
-    font-size: 16px;
-
-  }
-
-  .info-container {
-    background: rgba(0, 0, 0, 0.3);
-    padding: 0 auto;
-    width: 60%;
-    margin: 0 auto;
+    font-size: 14px;
 
   }
+ 
+   .info-text{
+     padding-top:20px;
+   }
+
+
 }
+
 
 
 .download {
   position: absolute;
   cursor:pointer;
-  margin-top: 300px;
+  margin-top: 17em;
   top: calc(50% - 30px);
   right: calc(50% - 115px);
   width: 230px;
@@ -250,7 +265,7 @@ a {
   opacity: 0;
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 768px) {
   .download {
     margin-top: 25em;
   }
@@ -311,7 +326,7 @@ a {
 
 .about-container {
   background: rgba(0, 0, 0, 0.3);
-  padding: 2em 2em 4em 2em;
+  padding: 3em;
   width: 60%;
   margin: 0 auto 5em auto;
 }
@@ -395,10 +410,10 @@ a {
 .skills-container {
 
   background: rgba(0, 0, 0, 0.3);
-  padding: 2em;
+  padding: 3em;
   width: 60%;
   margin: 0 auto 5em auto;
-  box-sizing: border-box;
+ 
 }
 
 .header h1 {
@@ -515,6 +530,7 @@ a {
 
   }
 
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -535,7 +551,7 @@ a {
 .portfolio-container {
 
   background: rgba(0, 0, 0, 0.3);
-  padding: 1em 2em 3em 2em;
+  padding: 3em;
   width: 60%;
   margin: 0 auto 5em auto;
 }
