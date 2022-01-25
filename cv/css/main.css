@@ -332,16 +332,13 @@ a {
 
 .information-container {
   display: grid;
-  grid-template-columns:repeat(4, 1fr);
-  margin: auto;
-  grid-gap: 1rem;
-  padding: 1rem 10px;
-}
-
-.information-box{
-
-  justify-content: center;
-  align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 1rem;
+    
+    padding: 1rem 10px;
 }
 
 .aboutme {
@@ -350,6 +347,8 @@ a {
   height: 150px;
   margin: 10px;
   border-radius: 50em;
+  margin:0 auto;
+
 }
 
 .aboutme-text {
@@ -362,8 +361,14 @@ a {
 @media only screen and (max-width: 1285px) {
   .information-container {
     grid-template-columns: repeat(2, 1fr);
+    padding: 1rem 6rem 1rem 6rem;
+  }
+  .information-box{
+    padding: 1rem;
+    
   }
 }
+
 
 @media only screen and (max-width: 900px) {
   .information-container {
