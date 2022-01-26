@@ -13,22 +13,54 @@
 </head>
 
 <body>
+<section>
+  <div class="nav-container" ; style="z-index: 1;">
+    <div class="topnav" id="myTopnav">
+      <a class="en" href="#" style="padding: 0px;"><button class="home"> <i class="fa fa-home"></i></button></a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    <div class="dropdown">
+
+      <div class="dropdown-content">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  <script>function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }</script>
+</section>
+
+
+
+
+<!--
   <section>
     <div class="nav-container" ; style="z-index: 1;">
-      <div class="topnav">
+      <div class="topnav" id="myTopnav">
         <a class="en" href="#" style="padding: 0px;"><button class="home"> <i class="fa fa-home"></i></button></a>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#contact">Contact</a>
-
-      </div>
     </div>
   </section>
 
+--->
+
 
   <section class="info">
-
     <div class="info-container">
       <div class="info-text">
         <img class="profile-pic" src="images/profil2.png" alt="profile picture">
@@ -46,18 +78,6 @@
     </div>
 
   </section>
-
-
-  <!--
-  <div id="footer" ; style="z-index: 1">
-    <div class="sticky-icons" ;>
-      <a href="#" class="fa fa-facebook"></a>
-      <a href="#" class="fa fa-twitter"></a>
-      <a href="#" class="fa fa-google"></a>
-      <a href="#" class="fa fa-linkedin"></a>
-    </div>
-  </div>
--->
 
   <section class="about">
     <div id="about">
@@ -270,7 +290,6 @@
       </div>
     </div>
   </section>
-
 
 
 
