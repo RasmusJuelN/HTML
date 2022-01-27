@@ -7,57 +7,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV Rasmus Juel Nielsen</title>
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/main.js">
+  
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://kit.fontawesome.com/278010f303.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-<section>
-  <div class="nav-container" ; style="z-index: 1;">
-    <div class="topnav" id="myTopnav">
+  
+
+  <header class="header">
+    <nav class="navbar">
       <a class="en" href="#" style="padding: 0px;"><button class="home"> <i class="fa fa-home"></i></button></a>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#contact">Contact</a>
-    <div class="dropdown">
-
-      <div class="dropdown-content">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-      </div>
-    </div>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-  </div>
-  <script>function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }</script>
-</section>
+        <ul class="nav-menu">
+            <li class="nav-item">
+                <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+                <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">Contact</a>
+            </li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+</header>
 
 
 
 
-<!--
-  <section>
-    <div class="nav-container" ; style="z-index: 1;">
-      <div class="topnav" id="myTopnav">
-        <a class="en" href="#" style="padding: 0px;"><button class="home"> <i class="fa fa-home"></i></button></a>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contact</a>
-    </div>
-  </section>
 
---->
+
+
+
+
+
+
 
 
   <section class="info">
@@ -297,7 +291,7 @@
 
 
 
-
 </body>
+<script src="js/main.js"></script>
 
 </html>
