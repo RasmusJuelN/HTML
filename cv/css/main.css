@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Quicksand';
-
+  cursor: none;
 
 }
 
@@ -18,6 +18,53 @@ html {
 
 
 
+.custom__cursor__inner{
+  height: 12px;
+  width: 12px;
+  position: fixed;
+
+  background-color: #8e07fc;
+  border-radius: 50%;
+  z-index: 5000;
+  pointer-events: none;
+}
+
+.custom__cursor__outer{
+  height: 40px;
+  width:  40px;
+  border-radius: 50%;
+  border: 2px solid #ffffffd7;
+  background-color: transparent;
+  position: fixed;
+  z-index: 5000;
+
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.cursor{
+  width: 20px;
+  height: 20px;
+  border:1px solid white;
+  border-radius: 50%;
+  position:absolute;
+}
+*/
+
 li {
   list-style: none;
   margin: none;
@@ -25,6 +72,7 @@ li {
 
 a {
   text-decoration: none;
+  cursor:none;
 }
 
 
@@ -59,6 +107,10 @@ a {
   background-color: #2eb4a9;
 }
 
+.hamburger:hover > .bar{
+  background-color: white;
+  opacity: 0.8
+}
 .nav-menu {
   display: flex;
   justify-content: space-between;
@@ -111,7 +163,7 @@ a {
   color: white;
 
   font-size: 18px;
-  cursor: pointer;
+  
 
 }
 
@@ -128,6 +180,7 @@ a {
 
 .fa:hover {
   opacity: 1;
+  cursor:none;
 }
 
 
@@ -151,19 +204,21 @@ a {
 
   .nav-menu.active {
     right: 0;
-    padding: 0;
+    padding: 0 auto;
     top:60px;
   }
 
   .nav-item {
     margin-left: none;
-    padding: 1rem;
+    padding: 1.1em;
   }
 
   .hamburger {
     display: block;
-    cursor: pointer;
+    
   }
+
+  
 
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
@@ -301,7 +356,7 @@ a {
 
 .download {
   position: absolute;
-  cursor: pointer;
+ 
   margin-top: 17em;
   top: calc(50% - 30px);
   right: calc(50% - 115px);
@@ -500,7 +555,7 @@ a {
 .skill-box {
   padding: 1rem;
   color: #ddd;
-  cursor: pointer;
+ 
 
 }
 
@@ -767,13 +822,15 @@ textarea:valid~label {
   left: 0;
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
-  pointer-events: none;
+  pointer-events:none;
+
 
 }
 
 .styled-input.wide {
   width: 650px;
   max-width: 100%;
+  
 
 }
 
@@ -786,6 +843,7 @@ textarea {
   background-color: #2d2d2d;
   color: white;
   border-radius: 4px;
+  cursor:none;
 
 }
 
@@ -821,7 +879,7 @@ textarea {
   background-color: #2eb4a9;
   color: white;
   font-size: 18px;
-  cursor: pointer;
+  
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06),
     0 2px 10px 0 rgba(0, 0, 0, 0.07);
   -webkit-transition: all 300ms ease;
