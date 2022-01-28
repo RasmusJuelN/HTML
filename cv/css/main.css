@@ -1,29 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Quicksand';
-  cursor: none;
-
-}
-
 html {
-  background: url('../images/himmelsize.jpg') no-repeat center center fixed;
-  background-size: cover;
-  height: 100%;
   scroll-behavior: smooth;
 
 }
-
-
+body {
+  margin: 0;
+  padding: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(-180deg, #0a0a35, #0004ff, #00a0fd, #31cf80, #95e90e, #fcec07, #ff8800, #f05913);
+    font-family: Quicksand;
+    cursor:none;
+}
 
 .custom__cursor__inner{
   height: 12px;
   width: 12px;
   position: fixed;
 
-  background-color: #8e07fc;
+  background-color: #f8fc07;
   border-radius: 50%;
   z-index: 5000;
   pointer-events: none;
@@ -46,25 +42,6 @@ html {
 
 
 
-
-
-
-
-
-
-
-
-
-/*
-.cursor{
-  width: 20px;
-  height: 20px;
-  border:1px solid white;
-  border-radius: 50%;
-  position:absolute;
-}
-*/
-
 li {
   list-style: none;
   margin: none;
@@ -74,7 +51,6 @@ a {
   text-decoration: none;
   cursor:none;
 }
-
 
 
 .navbar {
@@ -87,13 +63,15 @@ a {
   width: 100%;
 
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(43, 37, 37);
   z-index: 1;
 }
 
+
 .hamburger {
   display: none;
-  margin-right: 3em;
+
+  padding:1em;
 
 }
 
@@ -115,7 +93,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  float: left;
+
   margin: 0;
   padding: 0;
 
@@ -131,18 +109,20 @@ a {
 
 .nav-item a {
   font-size: 18px;
-
+  
 }
 
 .nav-link {
   font-size: 1rem;
   padding: 18px;
-  font-weight: 400;
   color: #ffffff;
+  
+  
 }
 
 .nav-link:hover {
   color: #070707;
+  width: 10rem;
 }
 
 .nav-link:hover {
@@ -152,15 +132,15 @@ a {
 
 .nav-logo {
   font-size: 2rem;
-  font-weight: 500;
+
   color: #ffffff;
 }
 
 .home {
   float: left;
-  background-color: #2eb4a9;
+  background-color: rgb(0, 0, 0, 0);
   border: none;
-  color: white;
+  color: #2eb4a9;
 
   font-size: 18px;
   
@@ -172,7 +152,7 @@ a {
   padding: 20px;
   font-size: 30px;
   width: 20px;
-  opacity: 0.6;
+  
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -181,6 +161,7 @@ a {
 .fa:hover {
   opacity: 1;
   cursor:none;
+  color: white;
 }
 
 
@@ -190,10 +171,10 @@ a {
     right: -100%;
     top: 60px;
     flex-direction: column;
-    background-color: rgb(129, 129, 129);
+    background-color: rgb(43, 37, 37);
     width: 10rem;
     margin-right: 0em auto;
-    border-radius: 10px;
+    
     text-align: center;
     align-items: center;
     transition: 0.5s;
@@ -204,13 +185,14 @@ a {
 
   .nav-menu.active {
     right: 0;
-    padding: 0 auto;
+    
     top:60px;
   }
 
   .nav-item {
     margin-left: none;
     padding: 1.1em;
+    
   }
 
   .hamburger {
@@ -252,7 +234,7 @@ a {
 }
 
 .info-container {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0);
   padding: 3em;
   width: 60%;
   margin: 0 auto 5em auto;
@@ -263,25 +245,28 @@ a {
   display: flex;
   text-decoration: none;
   list-style-type: none;
+  
 }
 
 .info-text li {
-  padding: 0em 5em 0em 6em;
+ 
+  padding: 2em 5em 0em 6em;
 
   font-size: 1vw;
 
   color: white;
-  text-align: left;
+  text-align: center;
 
 }
 
 .info-text h1 {
+  
   padding-bottom: 1em;
-
+  text-align: center;
 }
 
 u {
-  text-decoration: #2eb4a9 solid underline;
+  text-decoration: #9069d8cc solid underline;
   text-underline-position: under;
 }
 
@@ -292,6 +277,7 @@ u {
   display: flex;
   Opacity: 97%;
   margin: auto;
+  border-radius: 4%;
 }
 
 a {
@@ -307,7 +293,7 @@ a {
     font-size: 1.5vw;
 
     color: white;
-    text-align: left;
+    text-align: center;
 
   }
 
@@ -357,17 +343,17 @@ a {
 .download {
   position: absolute;
  
-  margin-top: 17em;
+  margin-top: 20em;
   top: calc(50% - 30px);
   right: calc(50% - 115px);
   width: 230px;
   height: 60px;
-  background: rgb(46, 180, 169, 1);
+  background: #2eb4a9;
   background-image: -webkit-linear-gradient(bottom, rgba(71, 36, 36, 0.075), rgba(255, 255, 255, .045));
   background-image: linear-gradient(to top, rgba(0, 0, 0, .075), rgba(255, 255, 255, .045));
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .09), inset 0 1px 0 rgba(255, 255, 255, .04), 0 0 1px rgba(0, 0, 0, .3), 0 0 10px rgba(0, 0, 0, .1);
   border-radius: 100px;
-  color: rgba(255, 255, 255, .9);
+  color: rgba(253, 251, 251, 0.9);
   line-height: 60px;
   text-align: center;
   letter-spacing: 5px;
@@ -398,12 +384,14 @@ a {
 
 .download:before {
   content: 'DOWNLOAD';
+  font-weight: 700;
 }
 
 .download:after {
   content: 'CLICK TO DOWNLOAD MY CV';
   top: -60px;
   opacity: 0;
+  font-weight: 700;
 }
 
 .download:hover:after {
@@ -436,7 +424,7 @@ a {
 }
 
 .about-container {
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0);
   padding: 3em;
   width: 60%;
   margin: 0 auto 5em auto;
@@ -451,8 +439,7 @@ a {
   margin-top: 2em;
   text-align: center;
   padding-bottom: 1em;
-  text-decoration: #2eb4a9 solid underline;
-  text-underline-position: under;
+ 
 }
 
 
@@ -521,7 +508,7 @@ a {
 
 .skills-container {
 
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0);
   padding: 3em;
   width: 60%;
   margin: 0 auto 5em auto;
@@ -535,9 +522,6 @@ a {
   font-size: 35px;
   position: relative;
 }
-
-
-
 
 
 .icon-container {
@@ -597,7 +581,7 @@ a {
   width: 0px;
   height: 4px;
   border-radius: 0 2px 2px 0;
-  background-color: #2eb4a9;
+  background-color: #2eb4a9cc;
   transition: .5s;
 }
 
@@ -657,20 +641,21 @@ a {
 
 #portfolio {
   padding-top: 100px;
-  padding-bottom: 150px;
+  padding-bottom: 300px;
 }
 
 .portfolio-container {
 
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0);
   padding: 3em;
   width: 60%;
   margin: 0 auto 5em auto;
 }
 
 .portfolio-text {
-  color: white;
+  color: rgb(44, 44, 44);
   font-size: 18px;
+  text-align: center;
 }
 
 
@@ -678,8 +663,7 @@ a {
   text-align: center;
   padding-top: 1em;
   padding-bottom: 1em;
-  text-decoration: #2eb4a9 solid underline;
-  text-underline-position: under;
+  
 }
 
 .pdf {
@@ -725,7 +709,7 @@ a {
 
 @media only screen and (max-width: 768px) {
   .portfolio-text {
-    color: white;
+    color: rgb(49, 49, 49);
     font-size: 16px;
   }
 }
@@ -763,7 +747,7 @@ a {
 .row h1 {
 
   font-weight: 600;
-  color: white;
+  color: rgb(15, 15, 15);
   text-align: center;
   font-size: 32px;
 
@@ -773,7 +757,7 @@ a {
 
   font-weight: 400;
   font-size: 20px;
-  color: white;
+  color: rgb(22, 22, 22);
   line-height: 1.5;
 
 
@@ -869,6 +853,7 @@ textarea {
   max-width: 90%;
   margin: 20px auto 25px auto;
   padding-bottom: 9em;
+  
 }
 
 .submit-btn {
@@ -898,6 +883,9 @@ textarea {
     float: none;
     text-align: center;
     display: inline-block;
+  }
+  body{
+    height:100%;
   }
 }
 
