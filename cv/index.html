@@ -8,67 +8,48 @@
   <title>CV Rasmus Juel Nielsen</title>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://kit.fontawesome.com/278010f303.js" crossorigin="anonymous"></script>
-  
+
 </head>
 
 <body>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <div class="custom__cursor__outer">
+  <div class="custom-cursor">
+    <div class="custom__cursor__outer">
+    </div>
+    <div class="custom__cursor__inner">
+    </div>
   </div>
-  <div class="custom__cursor__inner">
-  </div>
 
 
 
-
-
-
-
-
-
-
-
-  <!--
-<div class="cursor"></div>
-<script>
-  const cursor = document.querySelector('.cursor');
-
-  document.addEventListener('mouseover', e => {
-    cursor.setAttribute("style", "top: "+(e.clientY -10)+"px; left: "+(e.clientX -10)+"px;")
-  })
-
-</script>
--->
-  
-<section>
-  <header class="header">
-    <nav class="navbar">
-      <a class="en" href="#" style="padding: 0px;"><button class="home"> <i class="fa fa-home"></i></button></a>
+  <section>
+    <header class="header">
+      <nav class="navbar">
+        <a class="en" href="#" style="padding: 0px;"><button class="home"> <i class="fa fa-home"></i></button></a>
         <ul class="nav-menu">
-            <li class="nav-item">
-                <a href="#about" class="nav-link">About</a>
-            </li>
-            <li class="nav-item">
-                <a href="#skills" class="nav-link">Skills</a>
-            </li>
-            <li class="nav-item">
-                <a href="#portfolio" class="nav-link">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a href="#contact" class="nav-link">Contact</a>
-            </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
         </ul>
         <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-    </nav>
-</header>
-</section>
+      </nav>
+    </header>
+  </section>
 
 
 
@@ -93,10 +74,10 @@
         </li>
 
         <a class="download" href="documents/CV_Rasmus_Juel_Nielsen.pdf" download></a>
-          
 
-        
-      </a>
+
+
+        </a>
       </div>
 
     </div>
@@ -174,7 +155,8 @@
 
         <div class="header">
           <h1>Skills</h1>
-          <h2 style="text-align:center; color:white; font-size: 16px;">These are some of the tools i have been using so far - still adding to the list!</h2>
+          <h2 style="text-align:center; color:white; font-size: 16px;">These are some of the tools i have been using so
+            far - still adding to the list!</h2>
         </div>
         <div class="icon-container">
           <div class="skill-box">
@@ -279,44 +261,39 @@
       </div>
 
       <div class="contact-container">
-
-
-
         <div class="row input-container">
 
           <div class="styled-input wide">
-            <input type="text" required />
+            <input type="text" required name="name" />
             <label>Name</label>
           </div>
 
           <div class="styled-input">
-            <input type="text" required />
+            <input type="text" required name="email" />
             <label>Email</label>
           </div>
 
           <div class="styled-input" style="float:right;">
-            <input type="text" required />
+            <input type="tel" required name="phone" />
             <label>Phone</label>
           </div>
 
           <div class="styled-input wide">
-            <textarea required></textarea>
+            <textarea name="message" required></textarea>
             <label>Message</label>
           </div>
-          <div class="btn-lrg submit-btn">Send Message
+          <div class="btn-lrg submit-btn" type="submit" value="submit">Send Message
 
-            
           </div>
         </div>
       </div>
     </div>
   </section>
 
-<div>
+  <div>
 
-</div>
+  </div>
 
 </body>
 <script src="js/main.js"></script>
-
 </html>

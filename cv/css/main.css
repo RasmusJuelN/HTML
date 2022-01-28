@@ -12,13 +12,18 @@ body {
     background: linear-gradient(-180deg, #0a0a35, #0004ff, #00a0fd, #31cf80, #95e90e, #fcec07, #ff8800, #f05913);
     font-family: Quicksand;
     cursor:none;
+
 }
+
+
+
 
 .custom__cursor__inner{
   height: 12px;
   width: 12px;
   position: fixed;
-
+  top: -10px;
+  left: -10px;
   background-color: #f8fc07;
   border-radius: 50%;
   z-index: 5000;
@@ -29,6 +34,8 @@ body {
   height: 40px;
   width:  40px;
   border-radius: 50%;
+  top: -10px;
+  left: -10px;
   border: 2px solid #ffffffd7;
   background-color: transparent;
   position: fixed;
@@ -731,7 +738,7 @@ a {
 
 
   background-size: cover;
-  padding-top: 80px;
+  padding-top: 120px;
   position: flex;
 
 }
