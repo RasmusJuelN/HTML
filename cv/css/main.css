@@ -12,7 +12,6 @@ body {
     background: linear-gradient(-180deg, #0a0a35, #0004ff, #00a0fd, #31cf80, #95e90e, #fcec07, #ff8800, #f05913);
     font-family: Quicksand;
     cursor:none;
-
 }
 
 
@@ -257,7 +256,7 @@ a {
 
 .info-text li {
  
-  padding: 2em 5em 0em 6em;
+  padding: 1em 5em 1em 6em;
 
   font-size: 1vw;
 
@@ -478,7 +477,7 @@ a {
 }
 
 
-@media only screen and (max-width: 1285px) {
+@media only screen and (max-width: 1100px) {
   .information-container {
     grid-template-columns: repeat(2, 1fr);
     padding: 1rem 6rem 1rem 6rem;
@@ -491,7 +490,7 @@ a {
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 600px) {
   .information-container {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -627,7 +626,7 @@ a {
 }
 
 
-@media only screen and (max-width: 1285px) {
+@media only screen and (max-width: 1100px) {
   .icon-container {
     grid-template-columns: repeat(2, 1fr);
 
@@ -636,7 +635,7 @@ a {
 
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width:600px) {
   .icon-container {
     grid-template-columns: repeat(1, 1fr);
 
@@ -748,8 +747,10 @@ a {
   margin-right: 6em;
   margin-left: 2.4em;
   align-items: center;
+  position:relative;
 
 }
+
 
 .row h1 {
 
@@ -766,6 +767,7 @@ a {
   font-size: 20px;
   color: rgb(22, 22, 22);
   line-height: 1.5;
+  margin: 0 2em 0 2em;
 
 
 }
@@ -859,7 +861,7 @@ textarea {
   width: 650px;
   max-width: 90%;
   margin: 20px auto 25px auto;
-  padding-bottom: 9em;
+
   
 }
 
@@ -867,7 +869,7 @@ textarea {
   float: left;
   padding: 7px 30px;
   border-radius: 60px;
-
+  border:none;
   background-color: #2eb4a9;
   color: white;
   font-size: 18px;
@@ -887,12 +889,11 @@ textarea {
 @media (max-width: 880px) {
   .submit-btn {
     width: 100%;
-    float: none;
+    float: left;
     text-align: center;
-    display: inline-block;
-  }
-  body{
-    height:100%;
+   
+    margin-left: 1.5em;
+
   }
 }
 
