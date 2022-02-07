@@ -4,21 +4,21 @@ html {
   scroll-behavior: smooth;
 
 }
+
 body {
   margin: 0;
   padding: 0;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(-180deg, #0a0a35, #0004ff, #00a0fd, #31cf80, #95e90e, #fcec07, #ff8800, #f05913);
-    font-family: Quicksand;
-    cursor:none;
-
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(-180deg, #0a0a35, #0004ff, #00a0fd, #31cf80, #95e90e, #fcec07, #ff8800, #f05913);
+  font-family: Quicksand;
+  cursor: none;
 }
 
 
 
 
-.custom__cursor__inner{
+.custom__cursor__inner {
   height: 12px;
   width: 12px;
   position: fixed;
@@ -30,9 +30,9 @@ body {
   pointer-events: none;
 }
 
-.custom__cursor__outer{
+.custom__cursor__outer {
   height: 40px;
-  width:  40px;
+  width: 40px;
   border-radius: 50%;
   top: -10px;
   left: -10px;
@@ -56,7 +56,7 @@ li {
 
 a {
   text-decoration: none;
-  cursor:none;
+  cursor: none;
 }
 
 
@@ -78,7 +78,7 @@ a {
 .hamburger {
   display: none;
 
-  padding:1em;
+  padding: 1em;
 
 }
 
@@ -92,10 +92,11 @@ a {
   background-color: #2eb4a9;
 }
 
-.hamburger:hover > .bar{
+.hamburger:hover>.bar {
   background-color: white;
   opacity: 0.8
 }
+
 .nav-menu {
   display: flex;
   justify-content: space-between;
@@ -116,15 +117,15 @@ a {
 
 .nav-item a {
   font-size: 18px;
-  
+
 }
 
 .nav-link {
   font-size: 1rem;
   padding: 18px;
   color: #ffffff;
-  
-  
+
+
 }
 
 .nav-link:hover {
@@ -150,7 +151,7 @@ a {
   color: #2eb4a9;
 
   font-size: 18px;
-  
+
 
 }
 
@@ -159,7 +160,7 @@ a {
   padding: 20px;
   font-size: 30px;
   width: 20px;
-  
+
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
@@ -167,7 +168,7 @@ a {
 
 .fa:hover {
   opacity: 1;
-  cursor:none;
+  cursor: none;
   color: white;
 }
 
@@ -181,7 +182,7 @@ a {
     background-color: rgb(43, 37, 37);
     width: 10rem;
     margin-right: 0em auto;
-    
+
     text-align: center;
     align-items: center;
     transition: 0.5s;
@@ -192,22 +193,22 @@ a {
 
   .nav-menu.active {
     right: 0;
-    
-    top:60px;
+
+    top: 60px;
   }
 
   .nav-item {
     margin-left: none;
     padding: 1.1em;
-    
+
   }
 
   .hamburger {
     display: block;
-    
+
   }
 
-  
+
 
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
@@ -252,11 +253,11 @@ a {
   display: flex;
   text-decoration: none;
   list-style-type: none;
-  
+
 }
 
 .info-text li {
- 
+
   padding: 1em 5em 1em 6em;
 
   font-size: 1vw;
@@ -267,7 +268,7 @@ a {
 }
 
 .info-text h1 {
-  
+
   padding-bottom: 1em;
   text-align: center;
 }
@@ -349,7 +350,7 @@ a {
 
 .download {
   position: absolute;
- 
+
   margin-top: 20em;
   top: calc(50% - 30px);
   right: calc(50% - 115px);
@@ -448,7 +449,7 @@ a {
   margin-top: 2em;
   text-align: center;
   padding-bottom: 1em;
- 
+
 }
 
 
@@ -548,7 +549,7 @@ a {
 .skill-box {
   padding: 1rem;
   color: #ddd;
- 
+
 
 }
 
@@ -672,7 +673,7 @@ a {
   text-align: center;
   padding-top: 1em;
   padding-bottom: 1em;
-  
+
 }
 
 .pdf {
@@ -750,7 +751,7 @@ a {
   margin-right: 6em;
   margin-left: 2.4em;
   align-items: center;
-  position:relative;
+  position: relative;
 
 }
 
@@ -818,7 +819,7 @@ textarea:valid~label {
   left: 0;
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
-  pointer-events:none;
+  pointer-events: none;
 
 
 }
@@ -826,7 +827,7 @@ textarea:valid~label {
 .styled-input.wide {
   width: 650px;
   max-width: 100%;
-  
+
 
 }
 
@@ -839,7 +840,7 @@ textarea {
   background-color: #2d2d2d;
   color: white;
   border-radius: 4px;
-  cursor:none;
+  cursor: none;
 
 }
 
@@ -865,18 +866,18 @@ textarea {
   max-width: 90%;
   margin: 20px auto 25px auto;
 
-  
+
 }
 
 .submit-btn {
   float: left;
   padding: 7px 30px;
   border-radius: 60px;
-  border:none;
+  border: none;
   background-color: #2eb4a9;
   color: white;
   font-size: 18px;
-  
+
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06),
     0 2px 10px 0 rgba(0, 0, 0, 0.07);
   -webkit-transition: all 300ms ease;
@@ -894,7 +895,7 @@ textarea {
     width: 100%;
     float: left;
     text-align: center;
-   
+
     margin-left: 1.5em;
 
   }
