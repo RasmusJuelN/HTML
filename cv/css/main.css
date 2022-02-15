@@ -153,6 +153,7 @@ a {
   border: none;
   color: #2eb4a9;
   font-size: 18px;
+  cursor:none;
 }
 
 .fa {
@@ -801,6 +802,7 @@ textarea:focus~span {
 textarea {
   width: 100%;
   min-height: 15em;
+  resize: none;
 }
 
 .input-container {

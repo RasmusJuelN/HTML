@@ -29,7 +29,7 @@
       
         $(document).mousemove(function(e){
           $(".custom__cursor__inner").css({
-            transform: 'translate(' + (e.clientX - 3.20) + 'px, ' + (e.clientY - 3.25) + 'px)'
+            transform: 'translate(' + (e.clientX - 0) + 'px, ' + (e.clientY - 0) + 'px)'
           });
     
           mouseX = e.clientX - 10;
@@ -39,7 +39,7 @@
         setInterval(function(){
           xp += ((mouseX - xp)/5);
           yp += ((mouseY - yp)/5);
-          $(".custom__cursor__outer").css({transform: 'translateX('+ (xp - 9) +'px) translateY('+ (yp - 9) +'px)'} );
+          $(".custom__cursor__outer").css({transform: 'translateX('+ (xp - 6) +'px) translateY('+ (yp - 7) +'px)'} );
         }, 10);
     })
 
