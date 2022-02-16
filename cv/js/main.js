@@ -48,9 +48,10 @@
 {
   jQuery(document).ready(function($) {
     {
-        if(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i.test(navigator.userAgent)) {
+        if(/Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i.test(navigator.userAgent)) 
+        {
         $('.custom-cursor').remove();
-    }
+      }
     }
     });
 
