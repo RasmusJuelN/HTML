@@ -616,19 +616,11 @@ a {
     grid-template-columns: repeat(2, 1fr);
   }
   .icon-container {
-
-
-
-
-
     grid-gap: .5rem;
     padding: .5rem ;
     font-size: 16px;
   }
 }
-
-
-
 
 
 
@@ -690,12 +682,6 @@ padding-top: 80px;
     grid-template-columns: repeat(2, 2fr);
   }
 
-  .pdf img {
-    opacity: 1;
-    padding-top: 1em;
-    transition: transform 0.4s;
-  }
-
   .pdf img:hover {
     opacity: 1;
     transform: scale(1.1);
@@ -710,15 +696,11 @@ padding-top: 80px;
   }
   .pdf img {
     height: 200px;
-    
-    transform: scale(1);
-
+    opacity: 1;
   }
   .portfolio-container {
-
     padding: 0em;
     width: 80%;
-
   }
 }
 
