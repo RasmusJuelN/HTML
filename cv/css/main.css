@@ -237,7 +237,7 @@ a {
 
 .info {
   padding-top: 130px;
-  padding-bottom: 500px;
+  padding-bottom: 200px;
 }
 
 .info-container {
@@ -324,6 +324,12 @@ a {
   .info-text {
     padding-top: 20px;
   }
+  .info-container {
+    background: rgba(0, 0, 0, 0);
+    padding: 0em;
+    width: 80%;
+    margin: 0 auto 5em auto;
+  }
 }
 
 
@@ -406,8 +412,9 @@ a {
 
 
 #about {
-  padding-top: 130px;
-  padding-bottom: 500px;
+  padding-top: 200px;
+
+  padding-bottom: 50px;
 }
 
 .about-container {
@@ -473,6 +480,12 @@ a {
   .information-container {
     grid-template-columns: repeat(1, 1fr);
   }
+  .about-container {
+  
+    padding: 0em;
+    width: 80%;
+
+  }
 }
 
 
@@ -488,7 +501,7 @@ a {
 
 #skills {
   padding-top: 100px;
-  padding-bottom: 500px;
+
 }
 
 .skills-container {
@@ -514,7 +527,7 @@ a {
   align-items: center;
   text-align: center;
   grid-gap: 1rem;
-  padding: 1rem 10px;
+  padding: 1rem ;
   font-size: 18px;
 }
 
@@ -598,23 +611,35 @@ a {
 }
 
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 900px) {
   .icon-container {
     grid-template-columns: repeat(2, 1fr);
   }
-}
-
-@media only screen and (max-width:600px) {
   .icon-container {
-    grid-template-columns: repeat(1, 1fr);
+
+
+
+
+
+    grid-gap: .5rem;
+    padding: .5rem ;
+    font-size: 16px;
   }
 }
+
+
+
+
+
+
+
+
 
 
 
 #portfolio {
-  padding-top: 100px;
-  padding-bottom: 300px;
+padding-top: 80px;
+  padding-bottom: 100px;
 }
 
 .portfolio-container {
@@ -639,7 +664,7 @@ a {
 
 .pdf {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 2fr);
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -651,20 +676,22 @@ a {
   opacity: 90%;
   padding-top: 1em;
   transition: transform 0.4s;
+  image-rendering: -webkit-optimize-contrast;
+  height: 300px;
 }
 
 .pdf img:hover {
   opacity: 1;
-  transform: scale(1.3);
+  transform: scale(1.15);
 }
 
 @media only screen and (max-width: 1300px) {
   .pdf {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 2fr);
   }
 
   .pdf img {
-    opacity: 90%;
+    opacity: 1;
     padding-top: 1em;
     transition: transform 0.4s;
   }
@@ -680,6 +707,18 @@ a {
   .portfolio-text {
     color: rgb(49, 49, 49);
     font-size: 16px;
+  }
+  .pdf img {
+    height: 200px;
+    
+    transform: scale(1);
+
+  }
+  .portfolio-container {
+
+    padding: 0em;
+    width: 80%;
+
   }
 }
 
@@ -841,6 +880,7 @@ textarea {
     float: left;
     text-align: center;
     margin-left: 1.5em;
+    margin-bottom: 5em;
   }
 }
 
