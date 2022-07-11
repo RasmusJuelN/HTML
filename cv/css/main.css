@@ -23,7 +23,7 @@ body {
   position: fixed;
   top: -10px;
   left: -10px;
-  background-color: #f8fc07;
+  background-color: #09a5ff;
   border-radius: 50%;
   z-index: 5000;
   pointer-events: none;
@@ -36,7 +36,7 @@ body {
   border-radius: 50%;
   top: -10px;
   left: -10px;
-  border: 2px solid #ffffffd7;
+  border: 2px solid #616161d7;
   background-color: transparent;
   position: fixed;
   z-index: 5000;
